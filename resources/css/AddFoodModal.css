@@ -1,0 +1,40 @@
+#addFoodForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	z-index: 2;
+	gap: 10px;
+	padding: 10px;
+	width: fit-content;
+	background-color: rebeccapurple;
+}
+#addFoodForm h2{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#addFoodForm div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+#addFoodForm div input, #addFoodForm div select{
+	width: 100%;
+}
+#addFoodForm #isRecomended input{
+	width: 15px;
+}
+
+#modalButtonDiv {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	gap: 20px;
+	/* background-color: red; */
+}
+
+#modalButtonDiv button{
+	width: 100%;
+}
